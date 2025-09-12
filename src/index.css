@@ -8,5 +8,10 @@
 
 /* -------- variable */
 @theme{
-    
+
+
+
+    /* ---------- font */
+    --font-main:"Poppins", sans-serif;
+    --font-primary:"Nunito", sans-serif;
 }

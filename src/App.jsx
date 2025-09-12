@@ -2,6 +2,7 @@ import React from 'react'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
 import Layout from './layout/Layout'
 import Home from '../src/pages/Home'
+import './App.css'
 
 const App = () => {
 
