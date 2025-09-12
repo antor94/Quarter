@@ -1,14 +1,16 @@
 import React from 'react'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
-import LayoutOne from './layout/layoutOne'
-import Home from './pages/Home'
+import Layout from './layout/Layout'
+import Home from '../src/pages/Home'
 
 const App = () => {
 
-
-  const myRote = createBrowserRouter(createRoutesFromElements(
-    <Route path='/' element={<LayoutOne />} >
+  const myRoute = createBrowserRouter(createRoutesFromElements(
+    <Route >
+      <Route path='/' element={<Layout />} >
+      
       <Route index element={<Home />} ></Route>
+      </Route>
     </Route>
   ))
 
@@ -18,8 +20,7 @@ const App = () => {
   return (
     <>
     
-    <RouterProvider router={myRote} />
-    
+    <RouterProvider router={myRoute} />
     
     </>
   )
