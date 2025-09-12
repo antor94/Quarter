@@ -1,2 +1,12 @@
 /* ---------- tailwind */
 @import "tailwindcss";
+
+/* --------- container */
+
+@utility container {  margin-inline: auto; }
+
+
+/* -------- variable */
+@theme{
+    
+}
