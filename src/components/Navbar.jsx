@@ -12,7 +12,7 @@ const Navbar = () => {
     
     <nav is='navbar'>
       <div className="container">
-        <div id='navbar-row'>
+        <div id='navbar-row' className='flex items-center justify-between'>
 
           {/* -------------- logo  */}
 
@@ -20,7 +20,7 @@ const Navbar = () => {
 
           {/* --------- nav-items */}
           <div>
-            <ul>
+            <ul className='flex items-center'>
               <li><Link to={'/'} className='text-[18px] font-bold font-primary text-[#0A2C3D] hover:text-[#FF5A3C] duration-[.3s]' >Home</Link></li>
               <li><Link to={'/'} className='text-[18px] font-bold font-primary text-[#0A2C3D] hover:text-[#FF5A3C] duration-[.3s]' >Properties</Link></li>
               <li><Link to={'/'} className='text-[18px] font-bold font-primary text-[#0A2C3D] hover:text-[#FF5A3C] duration-[.3s]' >Property</Link></li>
@@ -31,7 +31,7 @@ const Navbar = () => {
           </div>
 
           {/* -------- icons  */}
-          <div>
+          <div className='flex'> 
             <div className='w-[39px] h-[35px]'> <Link to={'/'} ><LiaUser /></Link></div>
             <button><FaRegHeart /></button>
             <button><IoIosSearch /></button>
