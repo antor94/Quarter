@@ -31,10 +31,10 @@ const Navbar = () => {
           </div>
 
           {/* -------- icons  */}
-          <div className='flex'> 
-            <div className='w-[39px] h-[35px] bg-'> <Link to={'/'} ><LiaUser /></Link></div>
-            <button><FaRegHeart /></button>
-            <button><IoIosSearch /></button>
+          <div className='flex items-center gap-[8px]'> 
+            <div className='w-[39px] h-[35px] bg-white hover:text-[#FF5A3C] duration-[.3s] shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] flex justify-center items-center'> <Link to={'/'} ><LiaUser className='text-[24px]' /></Link></div>
+            <button className='w-[39px] h-[35px] bg-white hover:text-[#FF5A3C] duration-[.3s] shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] flex justify-center items-center'><FaRegHeart className='text-[18px]' /></button>
+            <button className='w-[39px] h-[35px] bg-white hover:text-[#FF5A3C] duration-[.3s] shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] flex justify-center items-center'><IoIosSearch className='text-[24px]' /></button>
           </div>
 
         </div>
